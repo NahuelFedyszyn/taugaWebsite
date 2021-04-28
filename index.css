@@ -1,0 +1,245 @@
+html{
+    overflow-x: hidden ;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.navBarLinkContainer{
+    display: flex !important;
+    justify-content: flex-start;
+    margin-left: 3rem;
+
+}
+
+.linkContainerVertical{
+    display: block !important;
+}
+
+.linkContainerVertical .navbar-nav{
+    display: block;
+}
+
+.nav-item{
+    display: block !important;
+}
+
+.myNavbar{
+    min-height: 17vh;
+    background: rgb(131,16,16);
+    background: linear-gradient(326deg, rgba(131,16,16,1) 0%, rgba(209,10,10,1) 49%, rgba(102,13,13,1) 100%);
+}
+
+.myNavLink{
+    color:white  !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.preLink{
+    font-weight: 900 !important;
+    margin-right: 1rem;
+    max-height: 1.5rem;
+}
+
+#header{
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    transition: 0.3s;
+    box-shadow: 0 0 15px 5px grey;
+    opacity: 0;
+}
+
+.homeContainer{
+    background-color: lightgray;
+    height: 100vh;
+    padding-top: 30vh;
+    box-shadow: 0 0 15px 5px grey;
+}
+
+.homeTitleContainer{
+    display: flex;
+    margin-left: 15%;
+}
+
+.homeTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4.5rem;
+    opacity: 0;
+}
+
+.homeSubtitleContainer{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1rem;
+}
+
+.homeSubtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.sobreNosotrosMainContainer{
+    margin-top: 5rem;
+}
+
+.sobreNosotrosContainer{
+    margin-bottom: 3rem;
+    transition: 0.3s;
+}
+
+.sobreNosotrosTitleContainer{
+    display: flex;
+    align-items: center;
+}
+
+.sobreNostrosImageContainer{
+    display: flex;
+    align-items: center;
+}
+
+.sobreNosotrosImageContainer img{
+    max-width: 60%;
+}
+
+.sobreNosotrosTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.sobreNosotrosText{
+    
+}
+
+#servicios{
+    margin-top: 5rem;
+    box-shadow: 0 0 15px 5px grey;
+    background-image: url("src/img/bgCards2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: black;
+}
+
+.serviciosTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    text-shadow: 0 0 5px grey;
+    font-size: 3rem;
+}
+
+.cardsContainer{
+    margin-top: 0rem;
+    width: 100%;
+}
+
+.card{
+    box-shadow: 0 0 8px 3px whitesmoke;
+    margin: 2rem auto;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 0 15px 10px whitesmoke;
+}
+
+.cardTitle{
+    text-align: center;
+    color: brown;
+    font-size: 2rem;
+}
+
+.cardText{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.cardImageContainer{
+    border:solid grey 3px;
+    margin: 5%;
+    min-height: 10rem;
+    border-radius: 20px;
+}
+
+.cardImageContainer img{
+    max-width: 100%;
+    size: cover;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#contacto{
+    padding: 5rem 0;
+}
+
+.contactoTitle{
+    margin-bottom: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.contactDataContainer{
+    display: flex;
+    align-items: center;
+}
+
+.contactItem{
+    font-size: 1.5rem;
+
+}
+
+.contactInfo{
+    font-size: 1rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.contactoImgContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.contactoImgContainer img{
+    max-width: 80%;
+}
+
+footer{
+    background: rgb(131,16,16);
+    background: linear-gradient(326deg, rgba(131,16,16,1) 0%, rgba(209,10,10,1) 49%, rgba(102,13,13,1) 100%);
+    width: 100vw;
+    height: 10vh;
+    box-shadow: 0 0 15px 5px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLink{
+    font-size: 2rem;
+    margin: auto 1rem;
+    text-decoration: none;
+    color:white;
+    transition: 0.3s;
+}
+
+.footerLink:hover{
+    text-shadow: white 0 0 15px;
+    transform: scale(1.2);
+    color:white;
+}
